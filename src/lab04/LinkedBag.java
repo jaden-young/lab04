@@ -17,20 +17,22 @@ public class LinkedBag<T> implements Bag<T>{
             next = newNext;
         }
         
-        // ----- Accessor Methods -------
+        /** Returns the element stored in the node */
         public T getElement() {
             return element;
         }
         
+        /** Returns the reference to the next node */
         public Node<T> getNext() {
             return next;
         }
         
-        // ----- Mutator Methods ------
+        /** Sets the element of the node */
         public void setElement(T newElement) {
             element = newElement;
         }
         
+        /** Sets the reference to the next node in the list */
         public void setNext(Node<T> newNext) {
             next = newNext;
         }
