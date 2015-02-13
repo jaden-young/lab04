@@ -12,7 +12,7 @@ public class NDSUBasketBall {
         
         Scanner scan = new Scanner(System.in);
         LinkedBag<Player> team = new LinkedBag();
-        final int NUM_PLAYERS = 14; // magic numbers are worse than toejam
+        final int NUM_PLAYERS = 3; // magic numbers are worse than toejam
 
         System.out.println("--------- NDSU Basketball Team Roster ---------");
         for(int i = 0; i < NUM_PLAYERS; i++) {

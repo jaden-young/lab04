@@ -118,10 +118,11 @@ public class LinkedBag<T> implements Bag<T>{
     @Override
     public boolean remove(T item) {
         Node<T> temp = bagHead.getNext();
-        for(int i = 0; i < count; i++) {
+        for(int i = 1; i < count; i++) {
             if(item.equals(temp.element)){
                 temp.setElement(bagHead.element);
                 bagHead = bagHead.getNext();
+                count--;
                 return true;
             }
             temp = temp.getNext();
