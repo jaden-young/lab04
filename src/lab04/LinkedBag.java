@@ -1,14 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package lab04;
 
 /**
  * Defines a singly linked list with a specified data type.<BR>
- * Implements the Bag interface.
+ * Implements the Bag interface and all of its methods.
  * @author Jaden Young
  * @param <T> Data type for the bag
  */

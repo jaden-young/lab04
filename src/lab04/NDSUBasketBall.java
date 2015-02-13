@@ -2,9 +2,10 @@ package lab04;
 
 import java.util.Scanner;
 
-
 /**
- *
+ * Creates a singly linked list that represents the members of the NDSU Men's 
+ * Basketball team, stored as Player objects, and another singly linked list 
+ * that holds course ID's as strings.
  * @author Jaden Young
  */
 public class NDSUBasketBall {
@@ -36,14 +37,14 @@ public class NDSUBasketBall {
             scan.nextLine();
         }
         
+        System.out.println("\n\n\n");
         //remove the first player
         team.remove();
         
         //add a player with made up info
         Player cletus = new Player("Cletus Spuckler", "4th Grade", 1);
         
-        System.out.println("Size of the team with all players and made up "
-                + "player: " + team.getCurrentSize());
+        System.out.println("Size of the team: " + team.getCurrentSize());
         
         team.remove(cletus);
         
@@ -63,6 +64,7 @@ public class NDSUBasketBall {
         
         courses.remove("CSCI 161");
         
+        System.out.println("\n\n\n");
         currentSize = courses.getCurrentSize();
         for(int i = 0; i < currentSize; i++) {
             System.out.println(courses.getItem(i));

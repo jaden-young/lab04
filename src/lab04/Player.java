@@ -2,6 +2,8 @@ package lab04;
 
 /**
  * Defines a Player object with values for name, positionPlayed, and number.
+ * One constructor is provided that initializes all fields, along with get/set
+ * methods for each field.
  * @author Jaden Young
  */
 public class Player {
